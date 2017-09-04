@@ -1,0 +1,8 @@
+powerd_flags="-a hiadaptive"
+#ifconfig_em0="inet 10.103.13.200 netmask 255.255.255.128"
+#defaultrouter="10.103.13.129"
+ifconfig_em0="DHCP"
+#kld_list="i915kms"
+kld_list="radeonkms"
+#samba_server_enable="YES"
+zfs_enable="YES"
